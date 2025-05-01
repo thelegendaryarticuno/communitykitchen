@@ -4,7 +4,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchQueryResult = createAsyncThunk(
   'query/fetchQueryResult',
   async (query_name) => {
-    const response = await fetch('http://localhost:5000/api/query', {
+    const response = await fetch('https://kitchen-backend-ts8l.onrender.com/api/query', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ query_name }),
