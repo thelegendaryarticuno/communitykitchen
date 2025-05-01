@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchQueryResult } from './redux/queryslice';
+import { fetchQueryResult } from './redux/querySlice';
 import logo from './images/logo.png';
 
 function App() {
@@ -197,7 +197,7 @@ function App() {
             className="backdrop-blur-lg bg-[#34755A]/30 rounded-2xl p-6 flex-1 shadow-lg border border-[#FFFFFF]/20 min-h-0"
           >
             <h2 className="text-2xl font-bold text-[#FFFFFF] mb-4">Output Data</h2>
-            <div 
+            <div
               className="backdrop-blur-lg bg-[#FFFFFF]/10 p-4 rounded-lg border border-[#FFFFFF]/20 overflow-auto h-[calc(100%-5rem)]"
               style={{
                 scrollbarWidth: 'thin',

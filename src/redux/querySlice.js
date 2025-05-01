@@ -1,4 +1,4 @@
-// src/redux/querySlice.js
+// src/redux/queryslice.js
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchQueryResult = createAsyncThunk(
