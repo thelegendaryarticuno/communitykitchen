@@ -1,12 +1,27 @@
-# React + Vite
+# 🔍 Query Explorer - Your SQL Query Management Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Project Overview
+Query Explorer is a modern web application that serves as a comprehensive SQL query management platform, allowing users to write, save, and execute queries with an AI-assisted approach. Built with React and featuring a sleek interface, it provides a seamless query execution experience.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- **React** - Frontend library
+- **Redux** - State management
+- **Framer Motion** - Animation library
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Redux** - React bindings for Redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
+- 🔍 Existing query management with search functionality
+- 🤖 AI-generated query suggestions
+- 📱 Responsive design with mobile support
+- 💫 Smooth animations and transitions
+- 📊 Dynamic query results visualization
+- 🎨 Modern UI with backdrop blur effects
+- 🔄 Real-time query execution
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run development server: `npm start`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
