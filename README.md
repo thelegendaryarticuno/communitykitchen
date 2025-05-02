@@ -1,27 +1,27 @@
-# 🔍 Query Explorer - Your SQL Query Management Tool
+# 🔍 Natural Language to SQL Query Converter
 
 ## 📝 Project Overview
-Query Explorer is a modern web application that serves as a comprehensive SQL query management platform, allowing users to write, save, and execute queries with an AI-assisted approach. Built with React and featuring a sleek interface, it provides a seamless query execution experience.
+A modern web application that converts natural language queries into SQL, featuring a sleek interface built with React. Users can input questions in plain English and receive corresponding SQL queries and results from the database.
 
 ## 🛠️ Tech Stack
-- **React** - Frontend library
-- **Redux** - State management
-- **Framer Motion** - Animation library
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Redux** - React bindings for Redux
+- **React** - Frontend framework
+- **Redux Toolkit** - State management
+- **Framer Motion** - Animations
+- **Tailwind CSS** - Styling
+- **Node.js/Express** - Backend API
 
 ## ✨ Key Features
-- 🔍 Existing query management with search functionality
-- 🤖 AI-generated query suggestions
-- 📱 Responsive design with mobile support
+- 💬 Natural language to SQL conversion
+- 📊 Real-time query results display
+- 🎯 Error handling with user-friendly messages
 - 💫 Smooth animations and transitions
-- 📊 Dynamic query results visualization
-- 🎨 Modern UI with backdrop blur effects
-- 🔄 Real-time query execution
+- 🎨 Modern UI with glassmorphism effects
+- 📱 Responsive design
+- 🔄 Loading states and retry functionality
 
 ## 🚀 Getting Started
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Run development server: `npm start`
+3. Start the development server: `npm run dev`
 
 
