@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchQueryResult } from './redux/querySlice';
+import { Helmet } from 'react-helmet';
 import Navbar from './component/navbar';
 import About from './component/about';
 
@@ -46,6 +47,16 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#34755A] relative overflow-hidden flex flex-col">
+      <Helmet>
+        <title>SQL Query Generator | Interactive Database Query Tool</title>
+        <meta name="description" content="Generate and execute SQL queries easily with our interactive database query tool. Real-time results and user-friendly interface for database exploration." />
+        <meta name="keywords" content="SQL, database, query generator, data exploration, SQL tool" />
+        <meta property="og:title" content="SQL Query Generator | Interactive Database Query Tool" />
+        <meta property="og:description" content="Generate and execute SQL queries easily with our interactive database query tool. Real-time results and user-friendly interface for database exploration." />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
       {/* Error Dialog */}
       <AnimatePresence>
         {(error === "Internal Server Error" || error === "Failed to generate SQL query" || error === "No such table or column exists in database") && (
