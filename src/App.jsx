@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchQueryResult } from './redux/querySlice';
 import Navbar from './component/navbar';
 import About from './component/about';
-import Terminal from './component/terminal';
+
 function App() {
   const dispatch = useDispatch();
   const { results, status, error, query } = useSelector((state) => state.query);
@@ -135,16 +135,6 @@ function App() {
               </motion.button>
             </div>
           </motion.div>
-
-          {/* SQL Query Terminal */}
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="backdrop-blur-lg bg-[#34755A]/30 rounded-2xl p-6 shadow-lg border border-[#FFFFFF]/20"
-          >
-            <Terminal command={query ? query.toString() : 'Your SQL query will appear here...'} />
-          </motion.div>
-
           {/* Output Data */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
